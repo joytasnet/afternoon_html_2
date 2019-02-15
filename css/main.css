@@ -1,0 +1,31 @@
+#container{
+  width:960px;
+  margin:0 auto;
+  background: #eee;
+  padding:100px 0;
+}
+#box{
+  width:600px;
+  height:300px;
+  position: relative;
+  background: yellow;
+  margin:0 auto;
+}
+#box > div{
+  position: absolute;
+  top:-50px;
+  left:-50px;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  background: red;
+  color:white;
+  text-align: center;
+  line-height: 100px;
+}
+#box p{
+  text-align: center;
+  line-height: 300px;
+  font-size:60px;
+  color:#333;
+}
